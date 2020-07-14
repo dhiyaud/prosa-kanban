@@ -1,0 +1,86 @@
+{
+  "code": 200,
+  "status": "success",
+  "message": "Success get data",
+  "data": [
+    {
+      "title": "Backlog",
+      "tasks": [
+        {
+          "issue_id": 1,
+          "title": "Improve accuracy of voice-to-text model",
+          "assignee": "Alexander",
+          "start_date": "2020-07-15",
+          "end_date": "2020-07-17",
+          "tags": "Research"
+        },
+        {
+          "issue_id": 2,
+          "title": "Create API to load user info from database",
+          "assignee": "Brown",
+          "start_date": "2020-07-15",
+          "end_date": "2020-07-17",
+          "tags": "Backend"
+        },
+        {
+          "issue_id": 3,
+          "title": "Two-factor authentication to make private",
+          "assignee": "Chris",
+          "start_date": "2020-07-15",
+          "end_date": "2020-07-17",
+          "tags": "Design"
+        }
+      ]
+    },
+    {
+      "title": "To Do",
+      "tasks": [
+        {
+          "issue_id": 4,
+          "title": "Two-factor authentication to make private",
+          "assignee": "Chris",
+          "start_date": "2020-07-15",
+          "end_date": "2020-07-17",
+          "tags": "Design"
+        },
+        {
+          "issue_id": 5,
+          "title": "Create API to load user info from database",
+          "assignee": "Brown",
+          "start_date": "2020-07-15",
+          "end_date": "2020-07-17",
+          "tags": "Backend"
+        },
+        {
+          "issue_id": 6,
+          "title": "Improve accuracy of voice-to-text model",
+          "assignee": "Alexander",
+          "start_date": "2020-07-15",
+          "end_date": "2020-07-17",
+          "tags": "Research"
+        }
+      ]
+    },
+    {
+      "title": "Done",
+      "tasks": [
+        {
+          "issue_id": 7,
+          "title": "Improve accuracy of voice-to-text model",
+          "assignee": "Alexander",
+          "start_date": "2020-07-15",
+          "end_date": "2020-07-17",
+          "tags": "Research"
+        },
+        {
+          "issue_id": 8,
+          "title": "Create API to load user info from database",
+          "assignee": "Brown",
+          "start_date": "2020-07-15",
+          "end_date": "2020-07-17",
+          "tags": "Backend"
+        }
+      ]
+    }
+  ]
+}

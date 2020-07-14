@@ -1,0 +1,21 @@
+* {
+  font-family: Roboto, "sans-serif";
+}
+.fw-900 {
+  font-weight: 900;
+}
+.fs-large {
+    font-size: large !important;
+}
+.cursor-move {
+    cursor: move;
+}
+.white-border {
+    border: solid white !important;
+}
+/* Task dialog form green shadow */
+.green-border.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat)
+  > .v-input__control
+  > .v-input__slot {
+  box-shadow: 0 0 0 3px #bce6dc;
+}
