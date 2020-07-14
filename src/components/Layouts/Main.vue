@@ -143,11 +143,18 @@ export default {
   components: {
     HeaderBar
   },
+  // Model variable
+  data() {
+    return {
+      drawer: null
+    };
+  },
   computed: {
     // Get Menu list
     getMenuList() {
       return ["Home", "My Tasks", "Notifications"];
     },
+    // Get team list with user
     getTeamList() {
       return [
         {
@@ -203,14 +210,10 @@ export default {
         }
       ];
     }
-  },
-  // Model variable
-  data() {
-    return {
-      drawer: null
-    };
   }
 };
 </script>
 
 <style scoped></style>
+
+<!-- Dhiya Ulhaq Dewangga -->

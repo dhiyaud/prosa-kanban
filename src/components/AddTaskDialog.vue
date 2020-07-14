@@ -251,23 +251,26 @@ export default {
   computed: {
     // Get tags list for Tags field
     getTags() {
-      return ["Research", "FE/BE Team", "PM Team"];
+      return ["Research", "Frontend", "Backend", "PM"];
     },
     // Get today date
     getToday() {
       return new Date().toISOString().substr(0, 10);
     },
+    // Set format start date in field
     getStartDateFormat() {
       return this.taskModel.start_date
         ? moment(this.taskModel.start_date).format("DD MMMM YYYY")
         : "";
     },
+    // Set format end date in field
     getEndDateFormat() {
       return this.taskModel.end_date
         ? moment(this.taskModel.end_date).format("DD MMMM YYYY")
         : "";
     }
   },
+  // Hook when component load
   mounted() {
     this.getUser();
   },
@@ -309,3 +312,5 @@ export default {
 </script>
 
 <style scoped></style>
+
+<!-- Dhiya Ulhaq Dewangga -->

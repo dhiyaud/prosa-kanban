@@ -1,5 +1,6 @@
 <template>
   <v-app id="app">
+    <!-- Page view -->
     <router-view />
   </v-app>
 </template>
@@ -9,3 +10,5 @@ export default {
   name: "App"
 };
 </script>
+
+<!-- Dhiya Ulhaq Dewangga -->

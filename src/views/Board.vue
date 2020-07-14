@@ -3,7 +3,7 @@
     <v-container class="fill-height pa-8" fluid>
       <v-flex class="py-2 fill-height">
         <!-- Kanban column by category -->
-        <v-row class="justify-center">
+        <v-row class="justify-center overflow-x-auto flex-nowrap">
           <v-col
             cols="4"
             v-for="task in taskList"
@@ -68,20 +68,24 @@ import AddTaskDialog from "../components/AddTaskDialog.vue";
 
 export default {
   name: "Board",
+  // Register component
   components: {
     draggable,
     BoardCard,
     AddTaskDialog
   },
+  // Model variable
   data() {
     return {
       taskList: []
     };
   },
+  // Hook when component load
   mounted() {
     this.fetch();
   },
   methods: {
+    // Function get list Board Task
     fetch() {
       return this.$store
         .dispatch("boardTask/getAll")
@@ -97,3 +101,5 @@ export default {
 </script>
 
 <style scoped></style>
+
+<!-- Dhiya Ulhaq Dewangga -->
